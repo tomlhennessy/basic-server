@@ -30,7 +30,7 @@ const server = http.createServer((req, res) => {
 });
 
 // define a port number
-const port = 3000;
+const port = 2000;
 
 // start the server and listen on specified port
 server.listen(port, () => console.log(`Server is listening on port ${port}`));
